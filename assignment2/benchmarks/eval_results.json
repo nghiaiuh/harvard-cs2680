@@ -1,0 +1,36 @@
+[
+  {
+    "instance_id": "task_01_calculator",
+    "status": "RESOLVED",
+    "iterations": 6,
+    "prompt_tokens": 23781,
+    "completion_tokens": 309,
+    "total_tokens": 24090,
+    "time_elapsed_s": 27.53,
+    "patch_lines": 16,
+    "patch_file": "patches\\task_01_calculator.patch",
+    "tool_counts": {
+      "bash": 3,
+      "read_file": 1,
+      "edit_file": 1,
+      "done": 1
+    }
+  },
+  {
+    "instance_id": "task_02_token_auth",
+    "status": "RESOLVED",
+    "iterations": 9,
+    "prompt_tokens": 72519,
+    "completion_tokens": 457,
+    "total_tokens": 72976,
+    "time_elapsed_s": 39.48,
+    "patch_lines": 28,
+    "patch_file": "patches\\task_02_token_auth.patch",
+    "tool_counts": {
+      "bash": 4,
+      "read_file": 2,
+      "edit_file": 2,
+      "done": 1
+    }
+  }
+]

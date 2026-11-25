@@ -1,0 +1,14 @@
+[
+  {
+    "instance_id": "task_01_calculator",
+    "workdir": "practice-repo",
+    "problem_statement": "Fix the bugs in calculator.py so that test_calculator.py passes all tests.",
+    "test_command": "pytest test_calculator.py"
+  },
+  {
+    "instance_id": "task_02_token_auth",
+    "workdir": "mytest-repo",
+    "problem_statement": "Fix the bugs in auth/token.py and auth/validator.py so that tests/test_auth.py passes all tests. Specifically: 1. Ensure decode_payload handles unpadded base64 strings by adding required '=' padding characters. 2. Ensure validate_token correctly raises PermissionError('Token has expired') when the current_time has reached or passed the exp claim.",
+    "test_command": "pytest tests/test_auth.py"
+  }
+]
